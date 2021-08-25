@@ -1,9 +1,11 @@
 ---
 
-- name : 'Removendo verses antigas do docker'
+- name : 'Removendo versoes antigas do docker'
   apt:
-    name: [docker docker-engine docker.io containerd runc]
+    name: ['docker', 'docker-engine', 'docker.io', 'containerd', 'runc']
     state: absent
+    become: yes
+
     
 - name: 'Baixando Docker'
   get_url:

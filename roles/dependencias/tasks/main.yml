@@ -1,0 +1,8 @@
+---
+- name: 'Instalando atualizações e dependencias'
+  apt:
+    update_cache: yes
+    upgrade: yes
+    name: ['transport-https,'ca-certificates','curl','gnupg','lsb-release']
+    state: latest
+  become: yes
