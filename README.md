@@ -1,12 +1,14 @@
-- Environment Automation - Jenkins + Docker
+# Environment Automation - Jenkins + Docker
+
+
   - Vagrant
   - Ansible
 
-- Vagrant configurantion
- 	- Provider: VirtualBox
-	- Operational System: Ubuntu 20.04.2.0 LTS
-	- Memory: 2GB
-	- Access SSH: Public key access mode
+# Vagrant configurantion
+- Provider: VirtualBox
+- Operational System: Ubuntu 20.04.2.0 LTS
+- Memory: 2GB
+- Access SSH: Public key access mode
 ```python
 Vagrant.configure("2") do |config|
 
