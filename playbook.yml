@@ -1,0 +1,5 @@
+---
+- hosts: docker
+  roles:
+    - docker
+    - jenkins
