@@ -6,6 +6,7 @@ services:
     ports:
       - '80:8080'
     environment:
+      - JENKINS_USERNAME=jenkins
       - JENKINS_PASSWORD=bitnami
     volumes:
       - 'jenkins_data:/bitnami/jenkins'
