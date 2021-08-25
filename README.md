@@ -1,6 +1,9 @@
 # Environment Automation - Jenkins + Docker
 
 # Tools used
+  - VirtualBox
+  - Vscode
+  - GitHub
   - Vagrant
   - Ansible
 
