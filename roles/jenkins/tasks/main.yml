@@ -1,4 +1,4 @@
-- name: Copiando docker-compose do  Jenkins
+- name: 'Copiando docker-compose do Jenkins'
   copy:
     src: files/docker-compose.yml
     dest: /home/vagrant/docker-compose.yml
