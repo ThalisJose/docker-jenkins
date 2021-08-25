@@ -34,4 +34,8 @@ After configuration file complete
 ```bash
 ```
 
+## Author
 
+👤 **Thalis José**
+
+- Github: [@ThalisJose](https://github.com/ThalisJose)
