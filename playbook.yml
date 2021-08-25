@@ -3,4 +3,3 @@
   roles:
     - dependencias
     - docker
-    - jenkins

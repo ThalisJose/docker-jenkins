@@ -6,6 +6,7 @@
   become: yes
 
 - name: 'Adicionar chave do repositorio Docker'
+  warn: false
   shell:  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
 - name: 'Adicionar repositório docker estável'
