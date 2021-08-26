@@ -11,6 +11,8 @@
 - Operational System: Ubuntu 20.04.2.0 LTS
 - Memory: 2GB
 - Access SSH: Public key access mode
+<p align="center">Note: Alter IP value</p>
+
 ```python
 Vagrant.configure("2") do |config|
 
@@ -28,7 +30,8 @@ Vagrant.configure("2") do |config|
 end
 
 ```
-Note: Alter IP value in vagrantfile
+
+
 
 After the configuration file completes, run the command below to start creating the VM
 
