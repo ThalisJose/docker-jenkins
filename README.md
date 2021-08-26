@@ -1,4 +1,4 @@
-# Environment Automation - Jenkins + Docker
+<h1 align="center">Environment Automation - Jenkins + Docker</h1>
 
 # Tools used
  
@@ -29,9 +29,10 @@ end
 ```
 Note: Alter IP value in vagrantfile
 
-After configuration file complete
+After the configuration file completes, run the command below to start creating the VM
 
 ```bash
+vagrant up
 ```
 
 ## Author
